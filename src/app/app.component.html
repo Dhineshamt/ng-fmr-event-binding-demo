@@ -2,5 +2,7 @@
 
 <div class="container">
   <h2 class="font-weight-bold">Event Binding Demo</h2>
-  <app-playground></app-playground>
+  <app-playground
+    (register)="registerEventHandlerInParent($event)"
+  ></app-playground>
 </div>
