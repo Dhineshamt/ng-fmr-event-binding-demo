@@ -11,5 +11,8 @@ export class AppComponent {
 
   registerEventHandlerInParent(args) {
     console.log('AppComponent handler for register is called', args);
+
+    //  increment field
+    this.numberOfClicks++;
   }
 }
