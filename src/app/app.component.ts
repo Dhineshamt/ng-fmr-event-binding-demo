@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'event-binding-demo';
+  numberOfClicks = 0;
 
   registerEventHandlerInParent(args) {
     console.log('AppComponent handler for register is called', args);

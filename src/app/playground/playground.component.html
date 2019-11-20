@@ -1,6 +1,8 @@
 <div class="card mt-5" style="width: 18rem;">
   <img src="assets/angular.png" class="card-img-top" alt="..." />
   <div class="card-body text-center">
-    <button class="btn btn-primary" (click)="clickHandler()">Click</button>
+    <button class="btn btn-primary" (click)="clickHandler()">
+      Click <span class="badge badge-light">{{ nClicks }}</span>
+    </button>
   </div>
 </div>
